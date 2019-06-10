@@ -1,3 +1,6 @@
+ARCHS = armv7 arm64 arm64e
+DEBUG = 1
+
 include $(THEOS)/makefiles/common.mk
 
 BUNDLE_NAME = LSTextChangerPrefs

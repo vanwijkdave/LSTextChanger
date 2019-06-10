@@ -1,3 +1,7 @@
+ARCHS = armv7 arm64 arm64e
+DEBUG = 0
+
+
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LSTextChanger

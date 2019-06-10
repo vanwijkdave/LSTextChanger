@@ -1,9 +1,10 @@
 Package: com.daveapps.lstextchanger
 Name: LSTextChanger
 Depends: mobilesubstrate
-Version: 1.1
 Architecture: iphoneos-arm
 Description: An awesome MobileSubstrate tweak!
 Maintainer: Dave van Wijk
 Author: Dave van Wijk
 Section: Tweaks
+Version: 1.1-2
+Installed-Size: 276

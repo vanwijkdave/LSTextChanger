@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBPackageNameHeaderCell</string>
+			<key>packageIdentifier</key>
+			<string>com.daveapps.lstextchanger</string>
+			<key>condensed</key>
+			<string>false</string>
+			<key>showVersion</key>
+			<string>false</string>
+			<key>backgroundGradientColors</key>
+			<array>
+				<string>#B24592</string>
+				<string>#F15F79</string>
+			</array>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+    		<key>big</key>
+   			<true/>
+			<key>action</key>
+			<string>twitterDave</string>
+   			<key>cellClass</key>
+ 		 	<string>HBTwitterCell</string>
+   			<key>height</key>
+    		<integer>56</integer>
+   			<key>label</key>
+    		<string>Dave van Wijk</string>
+    		<key>user</key>
+    		<string>DaveWijk</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Preferences:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.daveapps.lstextchangerprefs</string>
+			<key>key</key>
+			<string>isEnabledPref</string>
+			<key>label</key>
+			<string>Enable Tweak:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>detail</key>
+			<string>PSDetailController</string>
+			<key>placeholder</key>
+			<string>Enter the text for your LS here</string>
+			<key>defaults</key>
+			<string>com.daveapps.lstextchangerprefs</string>
+			<key>label</key>
+			<string>Replace the LS text with:</string>
+			<key>key</key>
+			<string>kCustomText</string>
+			<key>alternateColors</key>
+			<true />
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>About:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>twitterApps</string>
+    		<key>big</key>
+   			<true/>
+   			<key>cellClass</key>
+ 		 	<string>HBTwitterCell</string>
+   			<key>height</key>
+    		<integer>56</integer>
+   			<key>label</key>
+    		<string>daveApps</string>
+    		<key>user</key>
+    		<string>daveapps</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+    		<key>big</key>
+   			<true/>
+			<key>action</key>
+			<string>twitterDave</string>
+   			<key>cellClass</key>
+ 		 	<string>HBTwitterCell</string>
+   			<key>height</key>
+    		<integer>56</integer>
+   			<key>label</key>
+    		<string>Dave van Wijk</string>
+    		<key>user</key>
+    		<string>DaveWijk</string>
+		</dict>
+		<dict>
+  			<key>cellClass</key>
+   			<string>HBLinkTableCell</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>action</key>
+			<string>link</string>
+			<key>label</key>
+			<string>Donate</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LSTextChangerPrefs</string>
+</dict>
+</plist>
