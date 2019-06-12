@@ -6,6 +6,7 @@ include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = LSTextChanger
 LSTextChanger_FILES = Tweak.xm
+LSTextChanger_EXTRA_FRAMEWORKS += Cephei
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
